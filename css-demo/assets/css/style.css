@@ -1,0 +1,31 @@
+/* ---- CSS Demo ---- */
+/*
+#CABCB1
+#A08671
+#F4D4BA
+#75583F
+#4B311C
+#3B210C
+*/
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  /* ------------- Global Styles ------------- */
+
+  body{
+    background-color:lightcoral;
+    font-family: "Kode Mono", monospace;
+    }
+
+  header.primary{
+    background-color:lightgray;
+  }
