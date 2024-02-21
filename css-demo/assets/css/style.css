@@ -22,10 +22,60 @@ html {
   /* ------------- Global Styles ------------- */
 
   body{
-    background-color:lightcoral;
+    background-color:#F4D4BA;
     font-family: "Kode Mono", monospace;
+    margin:0;
     }
 
   header.primary{
-    background-color:lightgray;
+    background-color:#4B311C;
+    color:#ffffff;
+    text-align:center;
+    text-shadow:2px 2px #000000;
+    padding:20px;
+  }
+  
+  header.primary h1{
+    font-size: 2.4rem;
+    margin:20px 0 0;
+  }
+
+  header.primary h1 a{
+    color:#ffffff;
+    text-decoration:none;
+  }
+
+  header.primary h2{
+    margin:0;
+    font-size: 1.2rem;
+  }
+
+  header.primary nav{
+    max-width:900px;
+    margin:20px auto;
+  }
+
+  header.primary ul{
+    padding:10px 0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+  }
+
+  header.primary ul li{
+    list-style-type:none;
+  }
+
+  header.primary nav a{
+    color:white;
+    text-decoration:none;
+    background-color:#3B210C;
+    padding:5px 10px;
+    border-radius:20px;
+    border: 2px solid white;
+    transition:.5s;
+  }
+
+  header.primary nav a:hover{
+    background-color:#75583F;
   }
