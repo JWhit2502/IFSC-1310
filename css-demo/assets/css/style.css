@@ -33,6 +33,34 @@ img{
   margin:40px auto;
 }
 
+.img-right{
+  float:right;
+  margin:10px 0px 10px 20px;
+  border:1px solid #3B210C;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #3B210C;
+}
+
+.img-left{
+  float:float;
+  margin:10px 20px 10px 0px;
+  border:1px solid #3B210C;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #3B210C;
+}
+
+.img-center{
+  display:block;
+  margin:20px auto;
+  border:1px solid #3B210C;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #3B210C;
+}
+
+
 /* ------------- Global Styles ------------- */
 
   body{
@@ -114,6 +142,9 @@ img{
     flex-direction:row;
     justify-content:space-around;
     gap:2rem;
+    border-bottom:3px dotted #CABCB1;
+    border-top:3px dotted #CABCB1;
+    padding: 2rem 0;
   }
 
   #blog .post{
@@ -151,6 +182,75 @@ img{
     box-shadow: 0 8px 16px rgba(0,0,0, .6);
   }
 
+  #practice h2{
+    color:#4B311C;
+    border-bottom:3px dotted #CABCB1;
+    padding-bottom: 2rem;
+  }
+
+  table{
+    border:1px solid #3B210C;
+    width: 100%;
+    margin: 20px 0;
+    border-collapse:collapse ;
+  }
+
+  caption{
+    font-weight:bold;
+    margin:10px;
+  }
+
+  th{
+    background-color:#3B210C;
+    color:#ffffff;
+    padding:10px;
+  }
+
+  tr:nth-child(even){
+    background-color: rgba(0, 0, 0 ,0.1);
+  }
+
+  td{
+    border:1px solid #3B210C;
+    padding:5px;
+  }
+
+  
+  aside{
+    background:#4B311C;
+    color:#ffffff;
+    padding:1.25rem;
+  }
+
+  aside .container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:60px;
+  }
+
+  aside .container a{
+    color:#ffffff;
+  }
+
+  aside .container a:last-of-type{
+    display:block;
+    color:#ffffff;
+    text-align:right;
+    margin-top:1rem;
+  }
+
+  aside .widget footer{
+    display:none;
+  }
+
+  #colophon{
+    background-color:#3B210C;
+    text-align: center;
+    padding:10px;
+    color:#ffffff;
+    font-size:1rem;
+  }
 
 
 
