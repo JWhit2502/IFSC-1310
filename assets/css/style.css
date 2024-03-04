@@ -1,3 +1,80 @@
+/* ---- CSS Demo ---- */
+/*
+#CABCB1 - Light Grey
+#A08671 - Dark Tan
+#F4D4BA - Tan
+#75583F - Light Brown
+#4B311C - Brown
+#3B210C - Dark Brown
+*/
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/* ------------- Responsive Images ------------- */
+
+img{
+  max-width:100%;
+}
+
+/* ------------- Utility Classes ------------- */
+
+.container{
+  max-width: 960px;
+  width:60vw;
+  margin:40px auto;
+}
+
+.img-right{
+  float:right;
+  margin:10px 0px 10px 20px;
+  border:1px solid #3B210C;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #3B210C;
+}
+
+.img-left{
+  float:float;
+  margin:10px 20px 10px 0px;
+  border:1px solid #3B210C;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #3B210C;
+}
+
+.img-center{
+  display:block;
+  margin:20px auto;
+  border:1px solid #3B210C;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #3B210C;
+}
+
+
+/* ------------- Global Styles ------------- */
 body{
-    background-color:cadetblue;
+    background-color:#F4D4BA;
+    font-family: "Kode Mono", monospace;
+    margin:0;
+}
+
+body h1{
+    text-align:center;
+    background-color:#4B311C;
+    color:#ffffff;
+    text-shadow:2px 2px #000000;
+    padding:50px;
+    margin-top:0;
+    background-image:url("../img/Erdtree.webp");
+    background-repeat:center;
 }
